@@ -10,11 +10,9 @@
     font-weight: 400;
     font-style: normal;
 }
-
 body{
     font-family: "Roboto", sans-serif;
 }
-
 main{
     max-width: 1440px;
     margin: 0 auto;
@@ -55,10 +53,10 @@ section{
     align-items: center;
     padding: 25px;
 }
-#responsive-bar, #responsive-cart{
+#responsive-bar,
+#responsive-cart{
     display: none;
 }
-
 .logo{
     color: #E02C6D;
     font-size: 2rem;
@@ -231,9 +229,11 @@ footer{
 }
 /* Footer section style ends here */
 
+
 /*========================== Responsive style starts here (For mobile)============================ */
 @media screen and (max-width:576px) {
-    .navbar, .nav-links{
+    .navbar,
+    .nav-links{
         flex-direction: column;
     }
     .nav-brands{
@@ -242,7 +242,8 @@ footer{
         align-items: center;
         justify-content: space-between;
     }
-    #responsive-bar, #responsive-cart{
+    #responsive-bar,
+    #responsive-cart{
         display: inline;
         font-size: 1.7rem;
         color: #3A3A3A;
@@ -258,7 +259,9 @@ footer{
         width: 100%;
         text-align: center;
     }
-    .banner-title,.popular-title, .featured-title{
+    .banner-title,
+    .popular-title,
+    .featured-title{
         font-size: 2.4rem;
     }
     .btn{
@@ -299,6 +302,8 @@ footer{
         width: 100%;
     }
 }
+/*========================== Responsive style ends here (For mobile)============================ */
+
 
 /*========================== Responsive style starts here (For tablet) =========================== */
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -317,7 +322,9 @@ footer{
     .banner-image{
         width: 40%;
     }
-    .banner-title,.popular-title, .featured-title{
+    .banner-title,
+    .popular-title,
+    .featured-title{
         font-size: 2.5rem;
     }
     .partners-container{
@@ -340,5 +347,5 @@ footer{
     .featured-content{
         width: 40%;
     }
-
 }
+/*========================== Responsive style ends here (For tablet) =========================== */
