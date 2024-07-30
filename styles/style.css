@@ -83,7 +83,7 @@ section{
     display: flex;
     align-items: center;
     gap: 100px;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 50px;
 }
 .banner-content{
@@ -208,6 +208,28 @@ section{
 }
 /* Featured section style ends here */
 
+/* Footer section style starts here */
+footer{
+    text-align: center;
+    background-color: #0A0826;
+    color: white;
+    padding: 20px;
+}
+.footer-title{
+    font-size: 2rem;
+    color: #E02C6D;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.copyright{
+    color: rgb(182, 182, 182);
+    margin-bottom: 5px;
+}
+.footer-social i{
+    margin: 5px;
+    color: rgb(182, 182, 182);
+}
+/* Footer section style ends here */
 
 /*========================== Responsive style starts here (For mobile)============================ */
 @media screen and (max-width:576px) {
